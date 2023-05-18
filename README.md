@@ -25,6 +25,7 @@ The probabilities of winning:
 * Open a terminal and run the following commands
 ```
 composer install 
+php artisan key:generate
 php artisan migrate
 php artisan serve
 ```
