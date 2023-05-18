@@ -15,9 +15,12 @@ The probabilities of winning:
 * PHP 8.1 or higher
 * Composer
 * NPM
+* PostgreSQL or MySQL database
 
 ## Local usage
 * Clone this repo
+
+* Configure your .env file with your database credentials
 
 * Open a terminal and run the following commands
 ```
@@ -33,3 +36,8 @@ npm run dev
 ```
 
 * Open your browser and go to http://localhost:8000
+
+## Testing
+```
+composer test
+```
