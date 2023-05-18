@@ -2,7 +2,9 @@
 
 namespace App\Http\Requests;
 
+use App\Http\Enums\PrizeEnum;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rules\Enum;
 
 class StoreUserRequest extends FormRequest
 {

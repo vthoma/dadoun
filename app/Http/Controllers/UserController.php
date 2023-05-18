@@ -17,7 +17,7 @@ class UserController extends Controller
     public function store(StoreUserRequest $request): View
     {
         $user = User::query()->create([
-            'email' => $request->get('email'),
+            'email' => $request->validated(['email']),
             'prize' => PrizeEnum::getPrize()->label,
         ]);
 
